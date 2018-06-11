@@ -1,0 +1,567 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*GIFS*/
+
+#seal {
+    background-image: url(smg.gif);
+    background-size: 100% 100%;
+    height: 20vw;
+    width: 20vw;
+    position: fixed;
+    z-index: 4;
+    margin-top: 50px;
+
+
+}
+
+
+
+#molo {
+    background-image: url(smg.gif);
+    background-size: 100% 100%;
+    height: 20vw;
+    width: 20vw;
+    position: fixed;
+    left: 80%;
+    margin-top: 50px;
+}
+
+
+
+#glock {
+    background-image: url(MAC.gif);
+    background-size: 100% 100%;
+    height: 20vw;
+    width: 20vw;
+    position: fixed;
+    z-index: 4;
+    margin-top: 50px;
+
+
+}
+
+
+
+#glock2 {
+    background-image: url(MAC.gif);
+    background-size: 100% 100%;
+    height: 20vw;
+    width: 20vw;
+    position: fixed;
+    left: 80%;
+    margin-top: 50px;
+
+
+
+
+}
+
+
+
+
+/* Navigation */
+
+.topnav {
+    background-color: #000000;
+    overflow: visible;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 5;
+
+}
+
+
+.topnav a {
+
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+
+}
+
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+a {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-family: 'Open Sans',
+    sans-serif;
+    text-transform: uppercase;
+
+
+}
+
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+/*Fonts*/
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 5vW;
+    font-family: 'Yesteryear',
+    cursive;
+    font-weight: lighter;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+h2 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 5vw;
+    font-family: 'Yesteryear',
+    cursive;
+    font-weight: lighter;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+p {
+
+
+
+    font-family: 'Open Sans',
+    sans-serif;
+    font-size: 1.67vw;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    padding: 14px 100px 20px 100px;
+    margin: 16px 150px 0 150px;
+    font-family: sans-serif;
+
+
+
+}
+
+
+
+
+/*Boxes*/
+
+.container {
+    justify-content: center;
+    background-image: url(sun.png);
+    background-size: contain;
+    display: table;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.box1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin-top: 100px;
+    justify-content: space-around;
+
+
+}
+
+.box1 img {
+
+
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+}
+
+
+
+.box2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    padding: 0px 0px 0px 0px;
+
+
+
+}
+
+.design {
+    height: 10px;
+    width: 10px;
+    flex: auto;
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+
+
+}
+
+
+
+.box2 img {
+
+    height: 150px;
+    max-width: 100%;
+
+
+
+}
+
+.box3 {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    padding: 0px 0px 0px 0px;
+
+
+}
+
+
+
+.box4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    padding: 0px 0px 70px 0px;
+
+
+}
+
+
+.box4 p {
+
+    padding: 14px 100px 100px 100px;
+    margin: 16px 150px 0 150px;
+
+}
+
+
+.box1 a {
+    background: none;
+
+
+
+}
+
+
+.box5 {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    padding: 0px 0px 70px 0px;
+
+}
+
+
+.box6 {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    padding: 0px 0px 60px 0px;
+
+}
+
+
+
+
+
+.box6 p {
+
+    padding: 14px 100px 155px 100px;
+    margin: 16px 150px 0 150px;
+
+}
+
+
+
+
+.zoom1 {
+
+    transition: transform .2s;
+
+}
+
+.zoom1:hover {
+    transform: scale(2.5);
+    padding-bottom: 100px;
+}
+
+
+
+.zoom2 {
+
+    transition: transform .2s;
+
+}
+
+.zoom2 :hover {
+    transform: scale(2.5);
+    padding-bottom: 100px;
+
+}
+
+
+
+
+
+
+
+.box7 {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    padding: 0px 0px 110px 0px;
+
+}
+
+
+.box7 p {
+
+    padding: 14px 100px 200px 100px;
+    margin: 16px 150px 0 150px;
+
+}
+
+
+
+
+
+
+.box8 {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    padding: 0px 0px 120px 0px;
+
+}
+
+
+.box8 p {
+
+    padding: 14px 100px 218px 100px;
+    margin: 16px 150px 0 150px;
+
+}
+
+
+
+
+
+.box9 {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    padding: 0px 0px 229px 0px;
+
+}
+
+
+
+
+
+
+/*Media Query*/
+
+@media screen and (max-width: 600px) {
+
+
+
+    h1 {
+        color: white;
+        font-family: sans-serif;
+        font-size: 5vW;
+        font-family: 'Yesteryear',
+        cursive;
+        font-weight: lighter;
+        text-align: center;
+        vertical-align: middle;
+
+    }
+
+    h2 {
+        color: white;
+        font-family: sans-serif;
+        font-size: 5vw;
+        font-family: 'Yesteryear',
+        cursive;
+        font-weight: lighter;
+        text-align: center;
+        vertical-align: middle;
+
+    }
+
+    p {
+
+
+
+        font-family: 'Open Sans',
+        sans-serif;
+        font-size: 1.67vw;
+        color: white;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        vertical-align: middle;
+        padding: 14px 30px 20px 30px;
+        margin: 16px 30px 0 30px;
+        font-family: sans-serif;
+
+
+
+    }
+
+
+    .box4 p {
+
+
+
+        font-family: 'Open Sans',
+        sans-serif;
+        font-size: 1.67vw;
+        color: white;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        vertical-align: middle;
+        padding: 14px 30px 20px 30px;
+        margin: 16px 30px 0 30px;
+        font-family: sans-serif;
+
+
+
+    }
+
+    .box6 p {
+
+
+
+        font-family: 'Open Sans',
+        sans-serif;
+        font-size: 1.67vw;
+        color: white;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        vertical-align: middle;
+        padding: 14px 30px 20px 30px;
+        margin: 16px 30px 0 30px;
+        font-family: sans-serif;
+
+
+
+    }
+
+
+    .box7 p {
+
+
+
+        font-family: 'Open Sans',
+        sans-serif;
+        font-size: 1.67vw;
+        color: white;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        vertical-align: middle;
+        padding: 14px 30px 20px 30px;
+        margin: 16px 30px 0 30px;
+        font-family: sans-serif;
+
+
+
+    }
+
+
+
+    .box8 p {
+
+
+
+        font-family: 'Open Sans',
+        sans-serif;
+        font-size: 1.67vw;
+        color: white;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        vertical-align: middle;
+        padding: 14px 30px 20px 30px;
+        margin: 16px 30px 0 30px;
+        font-family: sans-serif;
+
+
+
+    }
+
+
+
+}
